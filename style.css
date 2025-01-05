@@ -1,0 +1,38 @@
+#output{
+    margin-top: 20px;
+    font-size: 20px;
+}
+input{
+    width: 200px;
+    margin: 5px;
+}
+
+
+
+
+body{
+    height: 100vh;
+}
+#gameArea{
+    width: 100%;
+    height: 80%;
+    border: 2px solid rgb(0, 86, 92);
+    background-color: aliceblue;
+    overflow: hidden;
+    position: relative;
+}
+#score{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.target{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: fuchsia;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+}
