@@ -12,6 +12,7 @@ input{
 
 body{
     height: 100vh;
+    margin-bottom: 500px;
 }
 #gameArea{
     width: 100%;
@@ -35,4 +36,31 @@ body{
     border-radius: 50%;
     cursor: pointer;
     transition: ease-in-out 500ms;
+}
+
+
+
+
+
+
+.box {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+#box1 {
+    left: 50px;
+    background-color: #3498db;
+}
+
+#box2 {
+    left: 150px;
+    background-color: #e74c3c;
+}
+
+#box3 {
+    left: 250px;
+    background-color: #2ecc71;
 }
